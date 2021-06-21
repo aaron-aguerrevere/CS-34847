@@ -1,0 +1,3258 @@
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-82180443-10"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-82180443-10');
+</script>
+'
+WHERE AffiliateSiteName = 'acadiana'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-9', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'akronnewsreporter.com',
+	'Publisher Product': 'akronnewsreporter.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-9'});
+</script>'
+WHERE AffiliateSiteName = 'akronnewsreporter'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+'
+WHERE AffiliateSiteName = 'aurora-beacon-news'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+'
+WHERE AffiliateSiteName = 'baltimoresun'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-46"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-46', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'bostonherald.com',
+	'Publisher Product': 'bostonherald.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-46'});
+</script>'
+WHERE AffiliateSiteName = 'bostonherald'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'bramptonguardian'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-9', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'broomfieldenterprise.com',
+	'Publisher Product': 'broomfieldenterprise.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-9'});
+</script>'
+WHERE AffiliateSiteName = 'broomfieldenterprise'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-9', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'brushnewstribune.com',
+	'Publisher Product': 'brushnewstribune.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-9'});
+</script>'
+WHERE AffiliateSiteName = 'brushnewstribune'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-9', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'burlington-record.com',
+	'Publisher Product': 'burlington-record.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-9'});
+</script>'
+WHERE AffiliateSiteName = 'burlington-record'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'caledonenterprise'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'cambridgetimes'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-9', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'canoncitydailyrecord.com',
+	'Publisher Product': 'canoncitydailyrecord.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-9'});
+</script>'
+WHERE AffiliateSiteName = 'canoncitydailyrecord'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+'
+WHERE AffiliateSiteName = 'CapitalGazette'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->'
+WHERE AffiliateSiteName = 'carrollcountytimes'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'UA-52083976-14'
+WHERE AffiliateSiteName = 'chicagosuntimes'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+'
+WHERE AffiliateSiteName = 'chicagotribune'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-17', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'chicoer.com',
+	'Publisher Product': 'chicoer.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-17'});
+</script>'
+WHERE AffiliateSiteName = 'chicoer'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-9', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'coloradohometownweekly.com',
+	'Publisher Product': 'coloradohometownweekly.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-9'});
+</script>'
+WHERE AffiliateSiteName = 'coloradohometownweekly'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->'
+WHERE AffiliateSiteName = 'daily-southtown'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-15', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'dailybreeze.com',
+	'Publisher Product': 'dailybreeze.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-15'});
+</script>'
+WHERE AffiliateSiteName = 'dailybreeze'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-9', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'dailycamera.com',
+	'Publisher Product': 'dailycamera.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-9'});
+</script>'
+WHERE AffiliateSiteName = 'dailycamera'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-17', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'dailydemocrat.com',
+	'Publisher Product': 'dailydemocrat.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-17'});
+</script>'
+WHERE AffiliateSiteName = 'dailydemocrat'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-23"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-23', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'dailyfreeman.com',
+	'Publisher Product': 'dailyfreeman.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-23'});
+</script>'
+WHERE AffiliateSiteName = 'dailyfreeman'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-27"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-27', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'dailylocal.com',
+	'Publisher Product': 'dailylocal.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-27'});
+</script>'
+WHERE AffiliateSiteName = 'dailylocal'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+'
+WHERE AffiliateSiteName = 'dailypress'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-21"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-21', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'dailytribune.com',
+	'Publisher Product': 'dailytribune.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-21'});
+</script>'
+WHERE AffiliateSiteName = 'dailytribune'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-27"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-27', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'delcotimes.com',
+	'Publisher Product': 'delcotimes.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-27'});
+</script>'
+WHERE AffiliateSiteName = 'delcotimes'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=https://www.googletagmanager.com/gtag/js?id=UA-118585369-1></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+  gtag('config', 'UA-118585369-1');
+</script>
+'
+WHERE AffiliateSiteName = 'dentonrc'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-7', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'denverpost.com',
+	'Publisher Product': 'denverpost.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-7'});
+</script>'
+WHERE AffiliateSiteName = 'denverpost'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = ''
+WHERE AffiliateSiteName = 'deseretnews'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'durhamregion'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-5', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'eastbaytimes.com',
+	'Publisher Product': 'eastbaytimes.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-5'});
+</script>'
+WHERE AffiliateSiteName = 'eastbaytimes'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->'
+WHERE AffiliateSiteName = 'elgin-courier-news'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-9', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'eptrail.com',
+	'Publisher Product': 'eptrail.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-9'});
+</script>'
+WHERE AffiliateSiteName = 'eptrail'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'erinadvocate'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-13', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'sentinelandenterprise.com',
+	'Publisher Product': 'sentinelandenterprise.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-13'});
+</script>'
+WHERE AffiliateSiteName = 'fitchburg'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'flamboroughreview'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src=https://www.googletagmanager.com/gtag/js?id=UA-37551682-1></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+ 
+
+  gtag('config', 'UA-37551682-1');
+
+</script>'
+WHERE AffiliateSiteName = 'gazette'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-9', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'greeleytribune.com',
+	'Publisher Product': 'greeleytribune.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-9'});
+</script>'
+WHERE AffiliateSiteName = 'greeleytribune'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'guelphmercury'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'hamiltonnews'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+'
+WHERE AffiliateSiteName = 'hartfordcourant'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-21"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-21', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'thenewsherald.com',
+	'Publisher Product': 'thenewsherald.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-21'});
+</script>
+'
+WHERE AffiliateSiteName = 'heritage'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'insidehalton'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'insideottawavalley'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-15', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'dailybulletin.com',
+	'Publisher Product': 'dailybulletin.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-15'});
+</script>'
+WHERE AffiliateSiteName = 'ivdailybulletin'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-9', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'journal-advocate.com',
+	'Publisher Product': 'journal-advocate.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-9'});
+</script>'
+WHERE AffiliateSiteName = 'journal-advocate'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-9', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'julesburgadvocate.com',
+	'Publisher Product': 'julesburgadvocate.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-9'});
+</script>'
+WHERE AffiliateSiteName = 'julesburgadvocate'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'kitchenerpost'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-15', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'dailynews.com',
+	'Publisher Product': 'dailynews.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-15'});
+</script>'
+WHERE AffiliateSiteName = 'ladailynews'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->'
+WHERE AffiliateSiteName = 'lake-county-news-sun'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-9', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'lamarledger.com',
+	'Publisher Product': 'lamarledger.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-9'});
+</script>'
+WHERE AffiliateSiteName = 'lamarledger'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-15', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'presstelegram.com',
+	'Publisher Product': 'presstelegram.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-15'});
+</script>'
+WHERE AffiliateSiteName = 'lbpresstelegram'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-13', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'lowellsun.com',
+	'Publisher Product': 'lowellsun.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-13'});
+</script>'
+WHERE AffiliateSiteName = 'lowellsun'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-21"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-21', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'macombdaily.com',
+	'Publisher Product': 'macombdaily.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-21'});
+</script>'
+WHERE AffiliateSiteName = 'macombdaily'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-27"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-27', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'mainlinemedianews.com',
+	'Publisher Product': 'mainlinemedianews.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-27'});
+</script>'
+WHERE AffiliateSiteName = 'mainlinemedianews'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-5', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'marinij.com',
+	'Publisher Product': 'marinij.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-5'});
+</script>'
+WHERE AffiliateSiteName = 'marinij'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->'
+WHERE AffiliateSiteName = 'mcall'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-5', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'mercurynews.com',
+	'Publisher Product': 'mercurynews.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-5'});
+</script>'
+WHERE AffiliateSiteName = 'mercurynews'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'mississauga'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-17', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'montereyherald.com',
+	'Publisher Product': 'montereyherald.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-17'});
+</script>'
+WHERE AffiliateSiteName = 'montereyherald'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-27"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-27', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'montgomerynews.com',
+	'Publisher Product': 'montgomerynews.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-27'});
+</script>'
+WHERE AffiliateSiteName = 'montgomerynews'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-25"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-25', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'morningjournal.com',
+	'Publisher Product': 'morningjournal.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-25'});
+</script>'
+WHERE AffiliateSiteName = 'morningjournal'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'muskokaregion'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'mykawartha'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->'
+WHERE AffiliateSiteName = 'naperville-sun'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'newhamburgindependent'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-25"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-25', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'news-herald.com',
+	'Publisher Product': 'news-herald.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-25'});
+</script>'
+WHERE AffiliateSiteName = 'news-herald'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'PROD:
+<script src="https://www.newsday.com/js/launch-prod/launch-ENe1484b2b97da4cf1bd7f7a777f05562c.min.js" async></script> 
+<script>
+window.appEventData = window.appEventData || [];
+window.appEventData.push({
+  "event": "pageData",
+  "page": {
+    "siteLanguage": "en-us",
+    "siteCountry": "US",
+	"hotjar": "false",
+	"videoviews": "0",
+    "pageName": "legacy - newsday:long island:obituaries:legacy",
+	"serverName": "newsday",
+	"siteSection": "long island",
+	"siteSubSection": "obituaries",
+	"siteSubSection2": "legacy",
+	"siteSubSection3": "legacy",
+	"siteSubSection4": "legacy",
+	"contentTitle": "legacy",
+	"contentId": "",
+	"contentSource": "newsday",
+	"hier": "newsday:Long island:obituaries:legacy",
+	"categories": "",
+	"section": "obituaries",
+	"author": "",
+	"pubDate": "",
+	"contentView": "web",
+	"contentType": "3rd party",
+	"setBlocked": "open"
+  }
+});
+</script>
+
+
+
+STAGE:
+<script src="//stage.newsday.com/js/launch-stage/launch-ENc2f8efa87d114144b627d5b3709d9cab-staging.min.js" async></script>
+<script>
+window.appEventData = window.appEventData || [];
+window.appEventData.push({
+  "event": "pageData",
+  "page": {
+    "siteLanguage": "en-us",
+    "siteCountry": "US",
+	"hotjar": "false",
+	"videoviews": "0",
+    "pageName": "legacy - newsday:long island:obituaries:legacy",
+	"serverName": "newsday",
+	"siteSection": "long island",
+	"siteSubSection": "obituaries",
+	"siteSubSection2": "legacy",
+	"siteSubSection3": "legacy",
+	"siteSubSection4": "legacy",
+	"contentTitle": "legacy",
+	"contentId": "",
+	"contentSource": "newsday",
+	"hier": "newsday:Long island:obituaries:legacy",
+	"categories": "",
+	"section": "obituaries",
+	"author": "",
+	"pubDate": "",
+	"contentView": "web",
+	"contentType": "3rd party",
+	"setBlocked": "open"
+  }
+});
+</script>'
+WHERE AffiliateSiteName = 'newsday'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'niagarafallsreview'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'niagarathisweek'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'nola'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'northbaynipissing'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'northumberlandnews'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->'
+WHERE AffiliateSiteName = 'nydailynews'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-23"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-23', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'oneidadispatch.com',
+	'Publisher Product': 'oneidadispatch.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-23'});
+</script>'
+WHERE AffiliateSiteName = 'oneidadispatch'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-15', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'ocregister.com',
+	'Publisher Product': 'ocregister.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-15'});
+</script>'
+WHERE AffiliateSiteName = 'orangecounty'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'orangeville'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->'
+WHERE AffiliateSiteName = 'orlandosentinel'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122937089-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122937089-1');
+</script>
+'
+WHERE AffiliateSiteName = 'paherald'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-17', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'paradisepost.com',
+	'Publisher Product': 'paradisepost.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-17'});
+</script>'
+WHERE AffiliateSiteName = 'paradisepost'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'parrysound'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-15', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'pasadenastarnews.com',
+	'Publisher Product': 'pasadenastarnews.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-15'});
+</script>'
+WHERE AffiliateSiteName = 'pasadenastarnews'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-15', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'pe.com',
+	'Publisher Product': 'pe.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-15'});
+</script>'
+WHERE AffiliateSiteName = 'pe'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->'
+WHERE AffiliateSiteName = 'pilotonline'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+'
+WHERE AffiliateSiteName = 'post-tribune'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-27"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-27', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'pottsmerc.com',
+	'Publisher Product': 'pottsmerc.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-27'});
+</script>'
+WHERE AffiliateSiteName = 'pottsmerc'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=https://www.googletagmanager.com/gtag/js?id=UA-55292935-1></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+  gtag('config', 'UA-55292935-1');
+</script>
+'
+WHERE AffiliateSiteName = 'pressdemocrat'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-27"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-27', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'readingeagle.com',
+	'Publisher Product': 'readingeagle.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-27'});
+</script>'
+WHERE AffiliateSiteName = 'readingeagle'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-17', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'record-bee.com',
+	'Publisher Product': 'record-bee.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-17'});
+</script>'
+WHERE AffiliateSiteName = 'record-bee'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-15', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'redlandsdailyfacts.com',
+	'Publisher Product': 'redlandsdailyfacts.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-15'});
+</script>'
+WHERE AffiliateSiteName = 'redlandsdailyfacts'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-9', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'reporterherald.com',
+	'Publisher Product': 'reporterherald.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-9'});
+</script>'
+WHERE AffiliateSiteName = 'reporterherald'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'sachem'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-26935592-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-26935592-1');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DC2TJEE08T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DC2TJEE08T');
+</script>'
+WHERE AffiliateSiteName = 'saltlaketribune'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-17', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'santacruzsentinel.com',
+	'Publisher Product': 'santacruzsentinel.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-17'});
+</script>'
+WHERE AffiliateSiteName = 'santacruzsentinel'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-23"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-23', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'saratogian.com',
+	'Publisher Product': 'saratogian.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-23'});
+</script>'
+WHERE AffiliateSiteName = 'saratogian'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-15', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'sbsun.com',
+	'Publisher Product': 'sbsun.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-15'});
+</script>'
+WHERE AffiliateSiteName = 'sbsun'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-15', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'sgvtribune.com',
+	'Publisher Product': 'sgvtribune.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-15'});
+</script>'
+WHERE AffiliateSiteName = 'sgvtribune'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'simcoe'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'southwesternontario'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'stcatharinesstandard'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->'
+WHERE AffiliateSiteName = 'sunsentinel'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65806319-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+  gtag('config', 'UA-65806319-2');
+</script>
+'
+WHERE AffiliateSiteName = 'tampabaytimes'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-82180443-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-82180443-9');
+</script>
+'
+WHERE AffiliateSiteName = 'theadvocate'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1095455-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1095455-1');
+</script>'
+WHERE AffiliateSiteName = 'theday'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'theifp'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-21"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-21', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'themorningsun.com',
+	'Publisher Product': 'themorningsun.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-21'});
+</script>'
+WHERE AffiliateSiteName = 'theleader'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-21"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-21', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'theoaklandpress.com',
+	'Publisher Product': 'theoaklandpress.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-21'});
+</script>'
+WHERE AffiliateSiteName = 'theoaklandpress'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'thepeterboroughexaminer'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'therecord-waterloo'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-17', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'thereporter.com',
+	'Publisher Product': 'thereporter.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-17'});
+</script>'
+WHERE AffiliateSiteName = 'thereporter'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-27"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-27', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'thereporteronline.com',
+	'Publisher Product': 'thereporteronline.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-27'});
+</script>'
+WHERE AffiliateSiteName = 'thereporteronline'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'thespec'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'thestar'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+'
+WHERE AffiliateSiteName = 'tidewaterreview'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-17', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'times-standard.com',
+	'Publisher Product': 'times-standard.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-17'});
+</script>'
+WHERE AffiliateSiteName = 'times-standard'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-9', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'timescall.com',
+	'Publisher Product': 'timescall.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-9'});
+</script>'
+WHERE AffiliateSiteName = 'timescall'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-27"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-27', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'timesherald.com',
+	'Publisher Product': 'timesherald.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-27'});
+</script>'
+WHERE AffiliateSiteName = 'timesherald'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-17', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'timesheraldonline.com',
+	'Publisher Product': 'timesheraldonline.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-17'});
+</script>'
+WHERE AffiliateSiteName = 'timesheraldonline'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-10713826-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-10713826-1');
+</script>
+'
+WHERE AffiliateSiteName = 'tnonline'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-20318432-2"></script>
+
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag(){dataLayer.push(arguments);}
+
+  gtag('js', new Date());
+
+ 
+
+  gtag('config', 'UA-20318432-2');
+
+</script>'
+WHERE AffiliateSiteName = 'toledoblade'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-27"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-27', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'trentonian.com',
+	'Publisher Product': 'trentonian.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-27'});
+</script>'
+WHERE AffiliateSiteName = 'trentonian'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-23"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-23', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'troyrecord.com',
+	'Publisher Product': 'troyrecord.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-23'});
+</script>'
+WHERE AffiliateSiteName = 'troyrecord'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-3', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'twincities.com',
+	'Publisher Product': 'twincities.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-3'});
+</script>'
+WHERE AffiliateSiteName = 'twincities'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-17', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'ukiahdailyjournal',
+	'Publisher Product': 'ukiahdailyjournal',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-17'});
+</script>'
+WHERE AffiliateSiteName = 'ukiahdailyjournal'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KSNSZQ6');</script>
+<!-- End Google Tag Manager -->
+Additionally, paste this code immediately after the opening <body> tag:
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSNSZQ6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+'
+WHERE AffiliateSiteName = 'vagazette'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-21"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-21', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'voicenews.com',
+	'Publisher Product': 'voicenews.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-21'});
+</script>'
+WHERE AffiliateSiteName = 'voicenews'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'waterloochronicle'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'wellandtribune'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-15"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-15', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'whittierdailynews.com',
+	'Publisher Product': 'whittierdailynews.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-15'});
+</script>'
+WHERE AffiliateSiteName = 'whittierdailynews'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = '<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61435456-17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-61435456-17', {send_page_view: false,
+   'custom_map': {
+	'dimension2': 'Publisher Domain',
+	'dimension3': 'Publisher Product',
+	'dimension12': 'Digital Publisher',
+	'dimension14': 'Section',
+	'dimension15': 'Taxonomy1',
+	'dimension24': 'Page Type'
+     
+   }
+});
+
+gtag('event', 'page_view', {
+	'Publisher Domain': 'willitsnews.com',
+	'Publisher Product': 'willitsnews.com',
+	'Digital Publisher': 'legacy.com',
+	'Section': 'Obituaries',
+	'Taxonomy1': 'Obituaries',
+	'Page Type': 'Obits',
+    send_to: 'UA-61435456-17'});
+</script>'
+WHERE AffiliateSiteName = 'willitsnews'
+
+
+USE Legacy
+UPDATE dbo.tblAffiliateSettings
+SET TrackingHtml = 'This tag for Dev/QA/Staging etc sites:
+
+<script src="//assets.adobedtm.com/cf7f3d5747a0/f46648a2c5e6/launch-c4f646220e41-development.min.js" async></script>
+
+And this tag for Production:
+
+<script src="//resources.thestar.com/cf7f3d5747a0/f46648a2c5e6/launch-e805e17faa6d.min.js" async></script>
+
+Placed as high in the head as possible.
+'
+WHERE AffiliateSiteName = 'yorkregion'
+
+

@@ -12,18 +12,15 @@ def create_sql():
 	with open('JanusCommunicationAnalyticsTags.csv', 'r') as csv_file:
 		csv_reader = csv.reader(csv_file, delimiter=',')
 		
-		in_this_ticket = 0
+		sql_scripts = open('sql_scrips.txt', 'w')
 
 		for i, row in enumerate(csv_reader):
 			if row[6] == 'CS-34847':
-				in_this_ticket += 1
+				sql_scripts.write(f"""USE Legacy\nUPDATE dbo.tblAffiliateSettings\nSET TrackingHtml = '{row[5]}'\nWHERE AffiliateSiteName = '{row[0]}'\n\n\n""")
 
-		return in_this_ticket
+		sql_scripts.close()
 		
 
 ############------------ DRIVER CODE ------------############
 if __name__ == "__main__":
-    print(create_sql())
-	# 132
-
-
+    create_sql()
